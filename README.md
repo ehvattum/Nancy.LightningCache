@@ -10,7 +10,7 @@ _This is actually a fork [Nancy.LightningCache by creamdog](https://github.com/c
 Install via nuget https://nuget.org/packages/Nancy.LightningCache
 
 ```
-PM> Install-Package Nancy.LightningCache
+PM> Install-Package Nancy.LightningCache.2
 ```
 
 Or build from source and drop Nancy.LightningCache.dll into your solution

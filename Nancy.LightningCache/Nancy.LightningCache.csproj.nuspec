@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>Nancy.LightningCache</id>
+    <id>$id$</id>
     <version>$version$</version>
-    <authors>Christian Westman</authors>
-    <owners>Christian Westman</owners>
-    <projectUrl>https://github.com/creamdog/Nancy.LightningCache</projectUrl>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.github.com/ceee/Nancy.LightningCache/master/LICENSE-MIT</licenseUrl>
+    <projectUrl>https://github.com/ceee/Nancy.LightningCache</projectUrl>
+    <iconUrl>http://nancyfx.org/nancy-nuget.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>delivers dynamic content with the speed of static content using asyncronous caching</description>
-    <releaseNotes>updated to target Nancy 0.20.0. culture invariant datetime parsing.</releaseNotes>
-    <copyright>Copyright 2013</copyright>
-    <tags>nancy cache</tags>
+    <description>Delivers dynamic content with the speed of static content using asyncronous caching</description>
+    <language>en-US</language>
+    <copyright>Copyright by cee, 2014</copyright>
+    <tags>nancy cache aspnet aspx lightning</tags>
     <dependencies>
-      <dependency id="Nancy" version="0.20.0" />
+      <dependency id="Nancy" version="0.23.0" />
     </dependencies>
   </metadata>
   <files>
