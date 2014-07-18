@@ -3,6 +3,8 @@ Nancy.LightningCache
 
 Delivers dynamic content with the speed of static content using asyncronous caching. Nancy.LightningCache will allways deliver cached responses if they exist and update asynchronously if needed.
 
+_This is actually a fork [Nancy.LightningCache by creamdog](https://github.com/creamdog/Nancy.LightningCache) which is not maintained anymore!_
+
 ##Installation
 
 Install via nuget https://nuget.org/packages/Nancy.LightningCache
