@@ -7,7 +7,7 @@ _This is actually a fork [Nancy.LightningCache by creamdog](https://github.com/c
 
 ##Installation
 
-Install via nuget https://nuget.org/packages/Nancy.LightningCache
+Install via nuget [https://nuget.org/packages/Nancy.LightningCache.2](https://nuget.org/packages/Nancy.LightningCache.2)
 
 ```
 PM> Install-Package Nancy.LightningCache.2
