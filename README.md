@@ -1,10 +1,12 @@
-#Nancy.LightningCache [![NuGet version](http://img.shields.io/nuget/v/Nancy.LightningCache.2.svg?style=flat)](https://nuget.org/packages/Nancy.LightningCache.2)  [![NuGet downloads](http://img.shields.io/nuget/dt/Nancy.LightningCache.2.svg?style=flat)](https://nuget.org/packages/Nancy.LightningCache.2)
+#Nancy.LightningCache
 
 Delivers dynamic content with the speed of static content using asyncronous caching. Nancy.LightningCache will allways deliver cached responses if they exist and update asynchronously if needed.
 
 _This is actually a fork [Nancy.LightningCache by creamdog](https://github.com/creamdog/Nancy.LightningCache) which is not maintained anymore!_
 
 ##Installation
+
+[![NuGet version](http://img.shields.io/nuget/v/Nancy.LightningCache.2.svg?style=flat)](https://nuget.org/packages/Nancy.LightningCache.2)  [![NuGet downloads](http://img.shields.io/nuget/dt/Nancy.LightningCache.2.svg?style=flat)](https://nuget.org/packages/Nancy.LightningCache.2)
 
 Install via nuget [https://nuget.org/packages/Nancy.LightningCache.2](https://nuget.org/packages/Nancy.LightningCache.2)
 
