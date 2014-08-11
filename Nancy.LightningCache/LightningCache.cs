@@ -92,9 +92,14 @@ namespace Nancy.LightningCache
         private static Response InvokePreRequirements(NancyContext context)
         {
             var resolution = _routeResolver.Resolve(context);
-            var preRequirements = resolution.Before;
-            var task = preRequirements.Invoke(context, new CancellationToken(false));
-            task.Wait();
+            
+            if (resolution.Before != null)
+            { 
+                var preRequirements = resolution.Before;
+                var task = preRequirements.Invoke(context, new CancellationToken(false));
+                task.Wait();
+            }
+            
             return context.Response;
         }
 
