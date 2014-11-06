@@ -170,6 +170,7 @@ namespace Nancy.LightningCache
                 }
                 var expiration = DateTime.Parse(context.NegotiationContext.Headers["nancy-lightningcache"], CultureInfo.InvariantCulture);
                 context.NegotiationContext.Headers.Remove("nancy-lightningcache");
+                context.Response.Headers.Remove("nancy-lightningcache");
                 _cacheStore.Set(key, context, expiration);
             }
         }
